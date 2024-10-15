@@ -19,12 +19,52 @@ body {
     width: 85vmin;
     height: 85vmin;
 
-    background: #aa8ba1;
+    background: url(./Untitled_Artwork.jpeg) center/cover;
+    /* background: #aa8ba1; */
 
     border-radius: 100%;
     overflow: hidden;
 
     margin: auto;
 
-    box-shadow: 0px opx 20px 35px #FFFF05;
+    /* box-shadow: 0px 0px 20px 35px #FFFF05; */
+    /* box-shadow: 0px 0px 20px 35px #FFC300; */
+    /* box-shadow: 0px 0px 20px 35px #FFAF33; */
+    /* box-shadow: 0px 0px 20px 35px #FFE633; */
+    /* box-shadow: 0px 0px 20px 35px #DCCD5F; */
+    box-shadow: 0px 0px 20px 35px #e2c800;
+}
+
+#particles {
+    height: 75%;
+    width: 100%;
+}
+
+#ground {
+    height: 25%;
+    width: 100%;
+    background: #c0bebe;
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(-15deg);
+    }
+
+    75% {
+        transform: rotate(10deg);
+    }
+}
+
+.shake {
+    animation: shake 1s;
 }
